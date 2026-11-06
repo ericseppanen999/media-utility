@@ -15,7 +15,7 @@ export function EditorHeading({ source, chosen, totalRegions }: EditorHeadingPro
             ? chosen.length > 1
               ? chosen.length + ' sources selected'
               : source.title
-            : 'A little less friction.\nA lot more media.'}
+            : 'Media Utility'}
         </h1>
       </div>
       {source && (

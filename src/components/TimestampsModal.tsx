@@ -21,7 +21,7 @@ export function TimestampsModal({
   return (
     <Modal
       error={error}
-      title="A timestamp. A title. A track."
+      title="Paste timestamps"
       subtitle="One entry per line. The next start becomes the previous end."
       close={() => setPasteOpen(false)}
     >
