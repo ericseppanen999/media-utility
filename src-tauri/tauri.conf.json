@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Media Utility",
+  "version": "0.1.0",
+  "identifier": "local.mediautility.desktop",
+  "build": { "beforeDevCommand": "npm run dev", "devUrl": "http://localhost:1420", "beforeBuildCommand": "npm run build", "frontendDist": "../dist" },
+  "app": {
+    "windows": [{ "title": "Media Utility", "width": 1320, "height": 880, "minWidth": 960, "minHeight": 680, "backgroundColor": "#111519" }],
+    "security": { "csp": "default-src 'self'; connect-src ipc: http://ipc.localhost; img-src 'self' asset: http://asset.localhost blob: data:; media-src 'self' asset: http://asset.localhost blob:; style-src 'self' 'unsafe-inline'", "assetProtocol": { "enable": true, "scope": [] } }
+  },
+  "bundle": { "active": true, "targets": ["nsis"], "resources": ["binaries/*"], "icon": ["icons/icon.ico"] }
+}

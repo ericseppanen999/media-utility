@@ -1,0 +1,11 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/binaries/*
+!src-tauri/binaries/.gitkeep
+tools-cache/
+*.log
+test-results/
+tests/artifacts/
+playwright-report/
+*.tsbuildinfo

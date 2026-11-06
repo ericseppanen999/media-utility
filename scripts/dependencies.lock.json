@@ -1,0 +1,26 @@
+﻿{
+    "dependencies":  [
+                         {
+                             "archive":  "yt-dlp.exe",
+                             "url":  "https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe",
+                             "name":  "yt-dlp",
+                             "version":  "2026.10.26",
+                             "sha256":  "f5389d3698ecde4ef06f4e6b1ce0294fe9ac1396228c8990b8d3416d6d177a7d"
+                         },
+                         {
+                             "archive":  "deno.zip",
+                             "url":  "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip",
+                             "name":  "deno",
+                             "version":  "v2.9.8",
+                             "sha256":  "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf"
+                         },
+                         {
+                             "archive":  "ffmpeg.zip",
+                             "url":  "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+                             "name":  "ffmpeg",
+                             "version":  "9.0.2",
+                             "sha256":  "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba"
+                         }
+                     ],
+    "platform":  "windows-x86_64"
+}

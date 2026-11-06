@@ -1,0 +1,1 @@
+{"main":{"identifier":"main","description":"Local media editor; no shell or general filesystem access from the webview.","local":true,"windows":["main"],"permissions":["core:default","core:window:allow-destroy","dialog:allow-open","dialog:allow-message","dialog:allow-confirm"]}}
